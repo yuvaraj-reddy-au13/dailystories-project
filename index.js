@@ -11,7 +11,6 @@ const MongoStore = require('connect-mongo')(session)
 const connectDB = require('./config/mongodb.js')
 const PORT = process.env.PORT || 5025;
 
-
 // Load config
 dotenv.config({ path: './config/config.env' })
 
